@@ -45,3 +45,46 @@ Vue.use(Egrid)
     @selection-change="selectionChange">
 </egrid>
 {% endcodeblock %}
+
+####  参数详情 
+selecttion:     定义表格的类型可选状态
+data:           表格渲染的数据源
+columns:        表格标题栏渲染的数据源
+columnsSchema:  定义columns的某一列，这里的设置会覆盖columnsProps的配置属性
+columnsProps:   定义 columns 公共的属性
+columnsHandler：可用于在现有的 columns 进行操作，对 columns 进行增删改
+
+## 示例
+{% codeblock %}
+const columns = [
+  {
+    label: '日期',
+    prop: 'date',
+    width: 100
+    ...
+  },
+  {
+    label: '姓名',
+    prop: 'name',
+    minWidth: 100
+    ...
+  },
+  {
+    label: '其他',
+    component: Btn, // 'el-button'
+    listeners: {
+      'custom-event' (data) {
+        console.log('custom-event', data)
+      }
+    },
+    propsHandler: function ({ row, col, column }) {
+      return { row, col, column }
+    }
+    ......
+  }
+  ......
+]
+{% endcodeblock %}
+
+## 结语
+其实，有官方文档的，写多了也没用，知道有这个东西就行了，以后用起来方便 [官方地址](https://nlush.com/egrid/#/)

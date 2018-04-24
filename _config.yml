@@ -130,10 +130,10 @@ theme: Anisina
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: 
-  repo: 
-  branch: 
+deploy: 
+  type: git
+  repo: git@github.com:guoguwen/guoguwen.github.io.git
+  branch: master
 
 
 # img CDN path
