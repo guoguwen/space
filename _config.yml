@@ -17,7 +17,7 @@ email: a2572638527@gmail.com
 description: "个人空间"
 keyword: # seo key words
 
-favicon: # your favicon png
+favicon: /img/avatare.jpeg # your favicon png
 # custom end
 
 # URL
@@ -29,11 +29,11 @@ permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: guoguwen
-zhihu_username: megahertz
+weibo_username: xx
+zhihu_username: xx
 github_username: guoguwen
-twitter_username: ehazon
-facebook_username:  
+twitter_username: 
+facebook_username: Guwen Guo 
 linkedin_username:  
 
 # Build settings
@@ -67,8 +67,18 @@ sidebar-avatar:   /img/avatare.jpeg  # use absolute URL
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
-# friends
-friends:  # 友链
+# friends # 友链
+friends: [
+	{
+		title: "xiejindou",
+		href: "https://github.com/xiejindou"
+	},
+	{
+		title: "lijing",
+		href: "https://github.com/muguang"
+	}
+] 
+ 
 
 # Directory
 source_dir: source
@@ -146,14 +156,14 @@ clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
 clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
-post-default-img: #博文默认的图片
-post-default-img-mobile: #移动端显示的图片
+post-default-img: /img/avatare.jpeg #博文默认的图片
+post-default-img-mobile: /img/avatare.jpeg #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key: 
+swiftype_key:  GGLszzbNi_mjH9D7fkKN
 
 
 # archive page title 
 archive:
-    title: archives
+    title: 文章归档
     description: 可以根据归档日期检索所有文件
