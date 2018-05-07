@@ -1,6 +1,9 @@
 ---
 title: Vue 编辑器quill-edit的扩展
 date: 2018-04-24 15:36:07
+author: "Guwen Guo"
+header-img: "/img/sunset.jpg"
+cdn: "header-off"
 tags: 
     - Vue组件封装
 ---
