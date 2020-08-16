@@ -291,4 +291,13 @@ and also you can help me fix bugs and add new feature :)
 
 ## License
 Apache License Version 2.0
+
+## script
+ {
+    "version": "3.7.1",
+    "hexo new 'xx'": "新建",
+    "hexo serve": "起服务",
+    "hexo deploy": "发布",
+    "hexo key": "cat ~/.ssh/id_rsa.pub"
+  },
 	
